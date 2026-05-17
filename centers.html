@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoRecycle | Recycling Centers</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+        NAVBAR
+    ========================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold text-success" href="index.html">
+                Eco<span class="text-white">Recycle</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="centers.html">
+                            Find Centers
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- =========================
+        HERO SECTION
+    ========================== -->
+
+    <section class="py-5 bg-dark text-white text-center">
+
+        <div class="container">
+
+            <h1 class="fw-bold display-5">
+                Find Authorized Recycling Centers
+            </h1>
+
+            <p class="lead text-light mt-3">
+                Locate trusted E-Waste collection centers near your city.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+        SEARCH SECTION
+    ========================== -->
+
+    <section class="py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+
+                    <input type="text"
+                        id="searchInput"
+                        class="form-control form-control-lg shadow-sm"
+                        placeholder="Search by city...">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+        CENTERS SECTION
+    ========================== -->
+
+    <section class="pb-5">
+
+        <div class="container">
+
+            <div class="row g-4" id="centerContainer">
+
+                <!-- CARD 1 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center1.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                Green Tech Recyclers
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                New Delhi
+                            </p>
+
+                            <p class="small">
+                                Accepts laptops, mobiles, batteries,
+                                printers and IT accessories.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 98765XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 2 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center2.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                EcoSafe Solutions
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                Mumbai
+                            </p>
+
+                            <p class="small">
+                                Specializes in battery recycling,
+                                televisions and home appliances.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 91234XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 3 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center3.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                Pure Earth India
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                Bangalore
+                            </p>
+
+                            <p class="small">
+                                Handles all kinds of electronic
+                                devices and industrial E-Waste.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 88888XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 4 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center4.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                Smart Recycle Hub
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                Jaipur
+                            </p>
+
+                            <p class="small">
+                                Collects mobile phones, chargers,
+                                cables and wearable devices.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 90909XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 5 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center5.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                Green Planet Recycling
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                Hyderabad
+                            </p>
+
+                            <p class="small">
+                                Provides eco-friendly recycling
+                                solutions for companies & homes.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 98989XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- CARD 6 -->
+
+                <div class="col-md-4 center-card">
+
+                    <div class="card h-100 border-0 shadow-sm">
+
+                        <img src="./images/center6.png"
+                            class="card-img-top"
+                            alt="Center Image">
+
+                        <div class="card-body">
+
+                            <h5 class="fw-bold text-success">
+                                Eco World Center
+                            </h5>
+
+                            <p class="text-muted mb-2 city">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                                Chennai
+                            </p>
+
+                            <p class="small">
+                                Safe disposal of refrigerators,
+                                washing machines and AC units.
+                            </p>
+
+                            <p class="small">
+                                <i class="fa-solid fa-phone"></i>
+                                +91 97979XXXXX
+                            </p>
+
+                            <button class="btn btn-success w-100">
+                                View Details
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+        STATS SECTION
+    ========================== -->
+
+    <section class="py-5 bg-success text-white">
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col-md-3">
+                    <h2 class="fw-bold">500+</h2>
+                    <p>Collection Centers</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2 class="fw-bold">50+</h2>
+                    <p>Cities Covered</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2 class="fw-bold">10K+</h2>
+                    <p>Devices Recycled</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h2 class="fw-bold">24/7</h2>
+                    <p>Customer Support</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+        GOOGLE MAP
+    ========================== -->
+
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Center Location Map</h2>
+                <p class="text-muted">Find nearby recycling centers easily.</p>
+            </div>
+
+            <div class="shadow rounded overflow-hidden">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18..."
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================
+        FOOTER
+    ========================== -->
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+
+            <p class="mb-1">
+                © 2026 EcoRecycle Hub | Made with ❤️ for a Greener Planet
+            </p>
+
+            <small class="text-muted">
+                Authorized by E-Waste Management Guidelines
+            </small>
+
+        </div>
+
+    </footer>
+
+    <!-- =========================
+        BOOTSTRAP JS
+    ========================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- =========================
+        SEARCH FILTER JS
+    ========================== -->
+
+    <script>
+
+        const searchInput = document.getElementById('searchInput');
+
+        searchInput.addEventListener('keyup', function () {
+
+            const filter = searchInput.value.toLowerCase();
+
+            const cards = document.querySelectorAll('.center-card');
+
+            cards.forEach(card => {
+
+                const city = card.querySelector('.city')
+                    .textContent
+                    .toLowerCase();
+
+                if (city.includes(filter)) {
+                    card.style.display = "block";
+                }
+
+                else {
+                    card.style.display = "none";
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
